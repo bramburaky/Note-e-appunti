@@ -129,7 +129,6 @@ pagination:
  
 
     <li>
- {% endunless %}
  
 {% if post.thumbnail %}
 
@@ -193,7 +192,7 @@ pagination:
 </div>
 {% endif %}
     </li>
-
+  {% endunless %}
     {% endfor %}
 
   </ul>
