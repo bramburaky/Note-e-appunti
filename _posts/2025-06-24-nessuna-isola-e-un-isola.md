@@ -6,7 +6,6 @@ description: Martina Giuffrè e Giacomo Pozzi, pubblicato nella rivista "LARES" 
 tags: formatting charts
 categories: sample-posts
 hidden: false
-
 ---
 
     1. L'Insularità nella Globalizzazione: Una Prospettiva Trasformata
