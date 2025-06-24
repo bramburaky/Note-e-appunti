@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/Note-e-appunti/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Note-e-appunti/blog/2025/2025-06-24-nessuna-isola-e-un-isola/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
