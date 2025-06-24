@@ -23,19 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/blog/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-foto",
+          title: "Foto",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Note-e-appunti/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Note-e-appunti/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -43,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/Note-e-appunti/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Note-e-appunti/teaching/";
           },
         },{id: "nav-people",
           title: "people",
