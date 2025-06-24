@@ -414,8 +414,8 @@ ninja.data = [{
             window.location.href = "/Note-e-appunti/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-chuva-braba",
+          title: 'Chuva Braba',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Note-e-appunti/books/the_godfather/";
