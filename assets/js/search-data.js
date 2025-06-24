@@ -51,15 +51,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/Note-e-appunti/blog/";
               },
-            },{id: "post-",
+            },{id: "post-nessuna-isola-è-un-39-isola",
         
-          title: "",
+          title: "Nessuna isola è un&#39;isola",
         
-        description: "",
+        description: "Martina Giuffrè e Giacomo Pozzi, pubblicato nella rivista &quot;LARES&quot; (Anno LXXXIX n. 3, Settembre-Dicembre 2023)",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/Note-e-appunti/blog/2025/2025-06-24-nessuna-isola-e-un-isola/";
+            window.location.href = "/Note-e-appunti/blog/2025/nessuna-isola-e-un-isola/";
           
         },
       },{id: "post-a-post-with-plotly-js",
