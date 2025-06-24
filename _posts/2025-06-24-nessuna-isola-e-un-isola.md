@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Nessuna isola è un'isola
-identitari a Capo Verde
 date: 2025-06-24 
 description: Martina Giuffrè e Giacomo Pozzi, pubblicato nella rivista "LARES" (Anno LXXXIX n. 3, Settembre-Dicembre 2023)
 tags: formatting charts
