@@ -1,6 +1,6 @@
 <div class="news">
   {% if page.latest_posts != blank %}
-    {% assign latest_posts_size = site.posts | size %}
+    {% assign latest_posts_size = site.posts | size % | where_exp: "post", "post.hidden != true" %}
     <div
       class="table-responsive"
       {% if page.latest_posts.scrollable and latest_posts_size > 3 %}
