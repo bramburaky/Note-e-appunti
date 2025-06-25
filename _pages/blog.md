@@ -117,8 +117,7 @@ pagination:
     {% endif %}
 
    {% for post in postlist %}
-  {% unless post.hidden or post.redirect or post.external_source %}
-
+{% unless post.hidden or post.redirect %}
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
