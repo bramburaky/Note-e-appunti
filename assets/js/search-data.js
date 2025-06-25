@@ -37,21 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/Note-e-appunti/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/Note-e-appunti/blog/";
-              },
-            },{id: "post-nessuna-isola-è-un-39-isola",
+        },{id: "post-nessuna-isola-è-un-39-isola",
         
           title: "Nessuna isola è un&#39;isola",
         
