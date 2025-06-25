@@ -116,7 +116,10 @@ pagination:
       {% assign postlist = site.posts %}
     {% endif %}
 
-   {% for post in postlist %}
+  {% for post in postlist %}
+  {% assign is_hidden = post.hidden %}
+  {% assign is_redirect = post.redirect %}
+   
 {% unless post.hidden or post.redirect %}
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
