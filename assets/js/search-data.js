@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/podcast/";
           },
-        },{id: "nav-bookshelf",
-          title: "Bookshelf",
+        },{id: "nav-books",
+          title: "Books",
           description: "",
           section: "Navigation",
           handler: () => {
