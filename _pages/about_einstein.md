@@ -3,6 +3,7 @@
 title: Podcast
 permalink: /about_einstein/
 exclude: true
+nav: false
 ---
 
 <div class="row mt-3">
