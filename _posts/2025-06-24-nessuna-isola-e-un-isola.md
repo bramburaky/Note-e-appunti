@@ -3,8 +3,8 @@ layout: post
 title: Nessuna isola è un'isola
 date: 2025-06-24 
 description: Martina Giuffrè e Giacomo Pozzi, pubblicato nella rivista "LARES" (Anno LXXXIX n. 3, Settembre-Dicembre 2023)
-tags: formatting charts
-categories: sample-posts
+tags: capo-verde
+categories: antropologia
 hidden: false
 ---
 
