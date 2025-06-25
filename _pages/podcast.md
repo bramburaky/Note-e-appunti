@@ -52,14 +52,37 @@ audio {
 </div>
 
 <div class="podcast-episode">
-  <img src="{{ '/assets/img/podcast-cover-2.jpg' | relative_url }}" alt="Copertina episodio 2">
+  <img src="{{ 'assets/img/cover_podcast_capo_verde.png' | relative_url }}" alt="Copertina episodio 2">
   <div class="podcast-info">
-    <h3>Episodio 02 – [Titolo episodio]</h3>
-    <p>Descrizione dell’episodio.</p>
+    <h3>Episodio 02 – Donne Tsinga</h3>
+    <p>tratto dalla rivista “LARES”</p>
     <audio controls>
-      <source src="{{ '/assets/audio/2_altro_podcast.mp3' | relative_url }}" type="audio/mp3">
+      <source src="{{ 'assets/audio/2donne_tsinga.mp3' | relative_url }}" type="audio/mp3">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
 </div>
 
+<div class="podcast-episode">
+  <img src="{{ 'assets/img/cover_podcast_capo_verde.png' | relative_url }}" alt="Copertina episodio 2">
+  <div class="podcast-info">
+    <h3>Episodio 03 – Una casa senza un uomo</h3>
+    <p>tratto dalla rivista “LARES”. Fortes</p>
+    <audio controls>
+      <source src="{{ 'assets/audio/3una_casa_senza_un_uomo_fortes.mp3' | relative_url }}" type="audio/mp3">
+      Il tuo browser non supporta l'elemento audio.
+    </audio>
+  </div>
+</div>
+
+<div class="podcast-episode">
+  <img src="{{ 'assets/img/cover_podcast_capo_verde.png' | relative_url }}" alt="Copertina episodio 2">
+  <div class="podcast-info">
+    <h3>Episodio 04 – Pensare con l'arcipelago</h3>
+    <p>tratto dalla rivista “LARES”. Fortes</p>
+    <audio controls>
+      <source src="{{ 'assets/audio/4pensare_con_arcipelago_capo_verdiano.mp3' | relative_url }}" type="audio/mp3">
+      Il tuo browser non supporta l'elemento audio.
+    </audio>
+  </div>
+</div>
