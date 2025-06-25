@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/Note-e-appunti/";
     },
-  },{id: "nav-bookshelf",
-          title: "Bookshelf",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Note-e-appunti/books/";
-          },
-        },{id: "nav-articoli",
+  },{id: "nav-articoli",
           title: "Articoli",
           description: "",
           section: "Navigation",
@@ -29,6 +22,20 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/Note-e-appunti/projects/";
+          },
+        },{id: "nav-podcast",
+          title: "Podcast",
+          description: "Collection of podcast",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Note-e-appunti/podcast/";
+          },
+        },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Note-e-appunti/books/";
           },
         },{id: "nav-people",
           title: "people",
