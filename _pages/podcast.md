@@ -10,3 +10,5 @@ horizontal: false
 ---
 
 Prova e test
+
+{% include audio.liquid path="assets/audio/cape_verdean_anthropology.mp3" controls=true %}
