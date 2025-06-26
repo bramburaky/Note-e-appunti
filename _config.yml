@@ -152,6 +152,10 @@ collections:
     output: true
   projects:
     output: true
+   
+  podcast:
+    output: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
