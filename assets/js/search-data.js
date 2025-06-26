@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/blog/";
           },
-        },{id: "nav-foto",
-          title: "Foto",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Note-e-appunti/projects/";
-          },
         },{id: "nav-podcast",
           title: "Podcast",
           description: "Collection of podcast",
@@ -36,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/Note-e-appunti/books/";
+          },
+        },{id: "nav-foto",
+          title: "Foto",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Note-e-appunti/projects/";
           },
         },{id: "post-nessuna-isola-è-un-39-isola",
         
