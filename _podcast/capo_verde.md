@@ -7,6 +7,7 @@ importance: 1
 image: /assets/img/cover_capo_verde.png
 description: Una serie di approfondimenti antropologici sulle isole di Capo Verde.
 permalink: /podcast/capo_verde/
+hidden: false
 ---
 
 
