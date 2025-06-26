@@ -1,12 +1,14 @@
+
 ---
-layout: post
+layout: podcast
 title: Antropologia Capo Verde
-date: 2025-06-24 
-description: Podcast tratti dalla nella rivista "LARES" (Anno LXXXIX n. 3, Settembre-Dicembre 2023)
-tags: capo-verde
-categories: antropologia
-hidden: false
+category: Africa, antropologia
+importance: 1
+image: assets/img/cover_capo_verde.png
+description: Una serie di approfondimenti antropologici sulle isole di Capo Verde.
+permalink: /podcast/capo_verde/
 ---
+
 
 <style>
 .podcast-episode {
