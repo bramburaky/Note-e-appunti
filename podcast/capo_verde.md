@@ -1,6 +1,6 @@
 
 ---
-layout: podcast
+layout: page
 title: Antropologia Capo Verde
 category: work
 importance: 1
