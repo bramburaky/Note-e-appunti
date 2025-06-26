@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <div class="projects">
-{% assign sorted_podcasts = site.pages | where_exp: "item", "item.path contains 'podcast/' and item.hidden != true" %}
+{% assign sorted_podcasts = site.podcast | where_exp: "item", "item.hidden != true" %}
 
 {% if site.enable_project_categories and page.display_categories %}
   {% for category in page.display_categories %}
