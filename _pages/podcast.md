@@ -9,6 +9,24 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+<style>
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 180px;
+  border-bottom: 1px solid #eee;
+}
+</style>
+
+
 <div class="projects">
 {% assign sorted_podcasts = site.podcast | where_exp: "item", "item.hidden != true" %}
 
