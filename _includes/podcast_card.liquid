@@ -1,0 +1,12 @@
+<div class="col mb-4">
+  <div class="card h-100">
+    {% if include.post.image %}
+      <img src="{{ include.post.image | relative_url }}" class="card-img-top" alt="{{ include.post.title }}">
+    {% endif %}
+    <div class="card-body">
+      <h5 class="card-title">{{ include.post.title }}</h5>
+      <p class="card-text">{{ include.post.description }}</p>
+      <a href="{{ include.post.url | relative_url }}" class="btn btn-primary">Ascolta</a>
+    </div>
+  </div>
+</div>
