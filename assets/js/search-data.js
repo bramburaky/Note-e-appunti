@@ -394,11 +394,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Note-e-appunti/books/chuva_braba/";
-            },},{id: "books-chuva-braba",
-          title: 'Chuva Braba',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/Note-e-appunti/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
