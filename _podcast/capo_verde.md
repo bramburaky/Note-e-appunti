@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: post
 title: Antropologia Capo Verde
 category: work
 importance: 1
