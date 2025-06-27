@@ -1,12 +1,15 @@
 <div class="col mb-4">
-  <div class="card h-100">
+  <div class="card h-100 shadow-sm border-0">
     {% if include.post.image %}
-      <img src="{{ include.post.image | relative_url }}" class="card-img-top" alt="{{ include.post.title }}">
+      <img src="{{ include.post.image | relative_url }}" class="card-img-top rounded-top" alt="{{ include.post.title }}">
     {% endif %}
-    <div class="card-body">
-      <h5 class="card-title">{{ include.post.title }}</h5>
-      <p class="card-text">{{ include.post.description }}</p>
-      <a href="{{ include.post.url | relative_url }}" class="btn btn-primary">Ascolta</a>
+    <div class="card-body d-flex flex-column justify-content-between">
+      <div>
+        <h5 class="card-title mb-2">{{ include.post.title }}</h5>
+        <p class="card-text text-muted">{{ include.post.description }}</p>
+      </div>
+      <a href="{{ include.post.url | relative_url }}" class="btn btn-outline-primary mt-3">🎧 Ascolta</a>
     </div>
   </div>
 </div>
+
