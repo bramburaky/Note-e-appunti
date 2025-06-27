@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: podcast
 title: Podcast
 permalink: /podcast/
 description: Collection of podcast
@@ -44,24 +44,15 @@ horizontal: false
     <a id="{{ category | downcase }}" href=".#{{ category | downcase }}">
       <h2 class="category">{{ category }}</h2>
     </a>
-    {% assign categorized_podcasts = sorted_podcasts | where: "category", category %}
+
+    {% assign categorized_podcasts = sorted_podcasts | where_exp: "item", "item.category == category" %}
     {% assign sorted_projects = categorized_podcasts | sort: "importance" %}
 
-    {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
-          {% for project in sorted_projects %}
-            {% include podcast_card_horizontal.liquid post=project %}
-          {% endfor %}
-        </div>
-      </div>
-    {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
-        {% for project in sorted_projects %}
-          {% include podcast_card.liquid post=project %}
-        {% endfor %}
-      </div>
-    {% endif %}
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for project in sorted_projects %}
+        {% include podcast_card.liquid post=project %}
+      {% endfor %}
+    </div>
   {% endfor %}
 {% else %}
   <div class="row row-cols-1 row-cols-md-3">
