@@ -9,15 +9,6 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-<h2>Debug Podcast:</h2>
-<ul>
-{% for p in site.podcast %}
-  <li>{{ p.title }} — {{ p.permalink }}</li>
-{% endfor %}
-</ul>
-
-
-
 <style>
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
