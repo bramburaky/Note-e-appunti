@@ -32,11 +32,14 @@ horizontal: false
 
 {% if site.enable_project_categories and page.display_categories %}
   {% for category in page.display_categories %}
-    <a id="{{ category | downcase }}" href=".#{{ category | downcase }}">
-      <h2 class="category">{{ category }}</h2>
-    </a>
 
-    {% assign categorized_podcasts = sorted_podcasts | where_exp: "item", "item.category == category" %}
+{%- comment -%}
+<a id="{{ category | downcase }}" href=".#{{ category | downcase }}">
+  <h2 class="category">{{ category }}</h2>
+</a>
+{%- endcomment -%}
+
+   {% assign categorized_podcasts = sorted_podcasts | where_exp: "item", "item.category == category" %}
     {% assign sorted_projects = categorized_podcasts | sort: "importance" %}
 
     <div class="row row-cols-1 row-cols-md-3">
