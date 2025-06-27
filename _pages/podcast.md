@@ -1,5 +1,5 @@
 ---
-layout: podcast
+layout: page
 title: Podcast
 permalink: /podcast/
 description: Collection of podcast
