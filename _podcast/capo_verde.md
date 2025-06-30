@@ -80,7 +80,7 @@ audio {
     <h3>Episodio 04 – Pensare con l'arcipelago</h3>
     <p>tratto dalla rivista “LARES”. Fortes</p>
     <audio controls>
-      <source src="{{ '/assets/audio/assets/audio/3Pensare_con_arcipelago.mp3' | relative_url }}" type="audio/mpeg">
+      <source src="{{ '/assets/audio/3Pensare_con_arcipelago.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
