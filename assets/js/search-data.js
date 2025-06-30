@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/projects/";
           },
-        },{id: "post-",
+        },{id: "post-pensare-con-l-arcipelago-capoverdiano-insularità-genere-e-transnazionalismo",
         
-          title: "",
+          title: "PENSARE CON L’ARCIPELAGO CAPOVERDIANO, Insularità, Genere e Transnazionalismo",
         
-        description: "",
+        description: "di Neusa Tsimba, Un&#39;analisi delle trasformazioni identitarie e sociali a Capo Verde, pubblicato nella rivista &quot;LARES&quot;",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/Note-e-appunti/blog/2025/2025-06-30-pensare-con-arcipelago/";
+            window.location.href = "/Note-e-appunti/blog/2025/pensare-con-arcipelago/";
           
         },
       },{id: "post-donne-capoverdiane-migrazione-e-identità",
