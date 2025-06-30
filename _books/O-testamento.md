@@ -1,10 +1,10 @@
 ---
 layout: book-review
 title: O testamento do Sr. Napumoceno da Silva Araújo
-author: 	Germano Almeida
+author: Germano Almeida
 cover: assets/img/book_covers/cover.jpg
 olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 972-21-0575-2 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 7539967447 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 pages: 197
 published : Ilhéu Editora, São Vicente
 categories: classics
