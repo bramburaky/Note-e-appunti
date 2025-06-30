@@ -12,13 +12,14 @@ hidden: false
 <style>
 .podcast-episode {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   margin-bottom: 2rem;
   align-items: flex-start;
 }
 
 .podcast-episode img {
-  max-width: 180px;
+  max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -34,9 +35,24 @@ hidden: false
 
 audio {
   width: 100%;
+  min-width: 200px;
+  max-width: 100%;
   margin-top: 0.5em;
+  display: block;
+}
+
+/* Layout orizzontale su schermi medio-grandi */
+@media (min-width: 576px) {
+  .podcast-episode {
+    flex-direction: row;
+  }
+
+  .podcast-episode img {
+    max-width: 180px;
+  }
 }
 </style>
+
 
 <div class="podcast-episode">
   <img src="{{ 'assets/img/cover_podcast_capo_verde2.png' | relative_url }}" alt="Copertina episodio 1">
