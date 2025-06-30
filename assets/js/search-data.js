@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/projects/";
           },
-        },{id: "post-pensare-con-l-arcipelago-capoverdiano-insularità-genere-e-transnazionalismo",
+        },{id: "post-una-casa-senza-un-uomo-è-una-nave-alla-deriva",
+        
+          title: "Una casa senza un uomo è una nave alla deriva",
+        
+        description: "di Fortes, La Monogenitorialità a Capo Verde tra Ideale Patriarcale e Realità Quotidiana, pubblicato nella rivista &quot;LARES&quot; (Anno LXXXIX n. 3, Settembre-Dicembre 2023)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Note-e-appunti/blog/2025/una-casa-senza-un-uomo/";
+          
+        },
+      },{id: "post-pensare-con-l-arcipelago-capoverdiano-insularità-genere-e-transnazionalismo",
         
           title: "PENSARE CON L’ARCIPELAGO CAPOVERDIANO, Insularità, Genere e Transnazionalismo",
         
