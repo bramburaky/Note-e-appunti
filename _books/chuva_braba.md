@@ -10,12 +10,12 @@ published : Lisbon, Instituto de Cultura e Fomento de Cabo Verde
 categories: classics
 tags: top-100
 buy_link: ttt
-started: 2024
+started: 2025
 finished: 2025
 released: 1956
-stars: 5
+stars: hidden
 goodreads_review: 6318556633
-status: Planned
+status: interested
 ---
   
 
