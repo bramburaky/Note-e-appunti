@@ -1,49 +1,98 @@
 ---
 layout: page
 ---
+
 {{ content }}
 
-{% if page.collection and page.collection.size > 0 %}
-  {% assign collection = site[page.collection] %}
-  {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
-      {% assign current_year = item.date | date: '%Y' %}
-      {% if current_year != year %}
-        {% unless forloop.first %}
-          </ul>
-        {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
-          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
-        </h1>
-        <ul>
-          {% assign year = current_year %}
-      {% endif %}
+<style>
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
 
-      <figure class="cover">
+.cover-card {
+  position: relative;
+  width: 180px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.cover-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.cover-card .caption {
+  padding: 0.8rem;
+}
+
+.cover-card .title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.cover-card .author {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+/* Status badge in alto a destra */
+.cover-card .status-badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+</style>
+
+{% if page.collection and page.collection.size > 0 %}
+  {% assign books = site[page.collection] | sort: 'date' | reverse %}
+
+  <div class="book-grid">
+    {% for item in books %}
+      <div class="cover-card">
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}">
           {% elsif item.olid %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false">
           {% elsif item.isbn %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
-          {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-            {% assign status = item.status | downcase | strip %}
-            {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
-          {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false">
           {% endif %}
         </a>
-      </figure>
-      {% if forloop.last %}
-        </ul>
-      {% endif %}
+
+        {% if item.status %}
+          {% assign status = item.status | downcase | strip %}
+          <div class="status-badge">{{ status }}</div>
+        {% endif %}
+
+        <div class="caption">
+          <div class="title">{{ item.title }}</div>
+          {% if item.author %}
+            <div class="author">{{ item.author }}</div>
+          {% endif %}
+        </div>
+      </div>
     {% endfor %}
-  {% endif %}
+  </div>
 {% endif %}
