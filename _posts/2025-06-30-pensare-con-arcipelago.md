@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PENSARE CON L’ARCIPELAGO CAPOVERDIANO: Insularità, Genere e Transnazionalismo 
+title: PENSARE CON L’ARCIPELAGO CAPOVERDIANO, Insularità, Genere e Transnazionalismo 
 date: 2025-06-30 
 description: di Neusa Tsimba, Un'analisi delle trasformazioni identitarie e sociali a Capo Verde, pubblicato nella rivista "LARES"
 tags: capo-verde
