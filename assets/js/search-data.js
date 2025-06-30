@@ -422,7 +422,12 @@ ninja.data = [{
             window.location.href = "/Note-e-appunti/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-chuva-braba",
+      },{id: "books-o-testamento-do-sr-napumoceno-da-silva-araújo",
+          title: 'O testamento do Sr. Napumoceno da Silva Araújo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/Note-e-appunti/books/O-testamento/";
+            },},{id: "books-chuva-braba",
           title: 'Chuva Braba',
           description: "",
           section: "Books",handler: () => {
