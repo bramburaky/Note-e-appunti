@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/Note-e-appunti/blog/2025/nessuna-isola-e-un-isola/";
           
         },
+      },{id: "post-donne-capoverdiane",
+        
+          title: "Donne Capoverdiane",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Note-e-appunti/blog/2025/donne-capoverdiane/";
+          
+        },
       },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
