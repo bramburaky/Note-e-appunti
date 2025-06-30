@@ -44,7 +44,7 @@ audio {
     <h3>Episodio 01 – Identità e migrazione a Capo Verde</h3>
     <p>Con Martina Giuffrè e Giacomo Pozzi, tratto dalla rivista “LARES” (2023).</p>
     <audio controls>
-      <source src="{{ '/assets/audio/cape_verdean_anthropology.mp3' | relative_url }}" type="audio/wav">
+      <source src="{{ '/assets/audio/cape_verdean_anthropology.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
@@ -56,7 +56,7 @@ audio {
     <h3>Episodio 02 – Donne Tsinga</h3>
     <p>tratto dalla rivista “LARES”</p>
     <audio controls>
-      <source src="{{ '/assets/audio/2donne_tsinga.mp3' | relative_url }}" type="audio/wav">
+      <source src="{{ '/assets/audio/2donne_tsinga.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
@@ -68,7 +68,7 @@ audio {
     <h3>Episodio 03 – Una casa senza un uomo</h3>
     <p>tratto dalla rivista “LARES”. Fortes</p>
     <audio controls>
-      <source src="{{ '/assets/audio/3una_casa_senza_un_uomo_fortes.mp3' | relative_url }}" type="audio/wav">
+      <source src="{{ '/assets/audio/3una_casa_senza_un_uomo_fortes.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
@@ -80,7 +80,7 @@ audio {
     <h3>Episodio 04 – Pensare con l'arcipelago</h3>
     <p>tratto dalla rivista “LARES”. Fortes</p>
     <audio controls>
-      <source src="{{ '/assets/audio/4pensare_con_arcipelago_capo_verdiano.mp3' | relative_url }}" type="audio/wav">
+      <source src="{{ '/assets/audio/4pensare_con_arcipelago_capo_verdiano.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
