@@ -12,29 +12,22 @@ A Capo Verde, la visione dominante della famiglia è fortemente influenzata da u
 
 **La Matrifocalità e la Fluidità delle Configurazioni Familiari**
 
-Nonostante l'ideale patriarcale, il contesto socio-culturale capoverdiano è segnato da una forte matrifocalità delle relazioni familiari. Molte donne si trovano a essere **le principali responsabili del sostentamento economico e affettivo della famiglia**, assumendo il doppio ruolo di madre e padre per i loro figli. Secondo il censimento del 2010, il 47,6% delle famiglie a Capo Verde era economicamente e affettivamente sostenuto da donne, e di queste, il 26,1% era classificato come famiglia monoparentale.Le famiglie capoverdiane vivono in un contesto di molteplici vincoli, tra cui:
+Nonostante l'ideale patriarcale, il contesto socio-culturale capoverdiano è segnato da una forte matrifocalità delle relazioni familiari. Molte donne si trovano a essere **le principali responsabili del sostentamento economico e affettivo della famiglia**, assumendo il doppio ruolo di madre e padre per i loro figli. Secondo il censimento del 2010, il 47,6% delle famiglie a Capo Verde era economicamente e affettivamente sostenuto da donne, e di queste, il 26,1% era classificato come famiglia monoparentale. Le famiglie capoverdiane vivono in un contesto di molteplici vincoli, tra cui:
 
-•Povertà
-
-•Migrazione
-
-•Poligamia informale
-
-•Discredito della possibilità di costruire un focolare stabile
-
-•Conflitti e violenza di genere
-
-•Malattie infettive
+ - List item
+ - Povertà
+ - Migrazione
+ - Poligamia informale
+ - Discredito della possibilità di costruire un focolare stabile
+ - Conflitti e violenza di genere
+ - Malattie infettive
 
 Questi fattori portano a **numerose configurazioni familiari** che si discostano dal modello ideale, tra cui:
 
-•Famiglie con donne sole capofamiglia (matrifocali).
-
-•Famiglie senza la presenza di un padre o di una madre.
-
-•Famiglie in cui convivono più di due generazioni, con i nonni (specialmente la nonna) che svolgono un ruolo centrale.
-
-•Famiglie gestite da giovani ma dipendenti da familiari assenti.
+- Famiglie con donne sole capofamiglia (matrifocali).
+- Famiglie senza la presenza di un padre o di una madre.
+- Famiglie in cui convivono più di due generazioni, con i nonni (specialmente la nonna) che svolgono un ruolo centrale.
+- Famiglie gestite da giovani ma dipendenti da familiari assenti.
 
 L'autrice sottolinea che l'appartenenza familiare non si basa unicamente sulla condivisione del sangue, ma si costruisce anche nella vita quotidiana attraverso negoziazioni costanti. Nonostante questa fluidità, l'ideale della famiglia normativa non è scomparso, e le negoziazioni quotidiane possono essere viste come una forma di ricerca della "famiglia ideale".
 
