@@ -48,9 +48,9 @@ ninja.data = [{
             window.location.href = "/Note-e-appunti/blog/2025/una-casa-senza-un-uomo/";
           
         },
-      },{id: "post-pensare-con-l-arcipelago-capoverdiano-insularità-genere-e-transnazionalismo",
+      },{id: "post-pensare-con-l-39-arcipelago-capoverdiano-insularità-genere-e-transnazionalismo",
         
-          title: "PENSARE CON L’ARCIPELAGO CAPOVERDIANO, Insularità, Genere e Transnazionalismo",
+          title: "Pensare con l&#39;arcipelago capoverdiano, Insularità, Genere e Transnazionalismo",
         
         description: "di Neusa Tsimba, Un&#39;analisi delle trasformazioni identitarie e sociali a Capo Verde, pubblicato nella rivista &quot;LARES&quot;",
         section: "Posts",
