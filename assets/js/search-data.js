@@ -427,6 +427,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Note-e-appunti/books/O-testamento/";
+            },},{id: "books-a-ilha-fantastica",
+          title: 'A ilha fantastica',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/Note-e-appunti/books/a-ilha-fantastica/";
             },},{id: "books-chuva-braba",
           title: 'Chuva Braba',
           description: "",
