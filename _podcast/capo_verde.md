@@ -39,7 +39,7 @@ audio {
 </style>
 
 <div class="podcast-episode">
-  <img src="{{ 'assets/img/cover_podcast_capo_verde.png' | relative_url }}" alt="Copertina episodio 1">
+  <img src="{{ 'assets/img/cover_podcast_capo_verde2.png' | relative_url }}" alt="Copertina episodio 1">
   <div class="podcast-info">
     <h3>Episodio 01 – Identità e migrazione a Capo Verde</h3>
     <p>Con Martina Giuffrè e Giacomo Pozzi, tratto dalla rivista “LARES” (2023).</p>
