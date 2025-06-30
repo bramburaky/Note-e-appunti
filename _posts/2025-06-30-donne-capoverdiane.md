@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title: Donne Capoverdiane, Migrazione e Identità
-date: 2025-06-24 
+date: 2025-06-30 
 description: di Neusa Tsimba, pubblicato nella rivista "LARES" (Anno LXXXIX n. 3, Settembre-Dicembre 2023)
 tags: capo-verde
 categories: antropologia
