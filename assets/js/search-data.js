@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/projects/";
           },
-        },{id: "post-nessuna-isola-è-un-39-isola",
+        },{id: "post-donne-capoverdiane-migrazione-e-identità",
+        
+          title: "Donne Capoverdiane, Migrazione e Identità",
+        
+        description: "di Neusa Tsimba, pubblicato nella rivista &quot;LARES&quot; (Anno LXXXIX n. 3, Settembre-Dicembre 2023)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Note-e-appunti/blog/2025/donne-capoverdiane/";
+          
+        },
+      },{id: "post-nessuna-isola-è-un-39-isola",
         
           title: "Nessuna isola è un&#39;isola",
         
@@ -46,17 +57,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/Note-e-appunti/blog/2025/nessuna-isola-e-un-isola/";
-          
-        },
-      },{id: "post-donne-capoverdiane",
-        
-          title: "Donne Capoverdiane",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/Note-e-appunti/blog/2025/donne-capoverdiane/";
           
         },
       },{id: "post-a-post-with-plotly-js",
