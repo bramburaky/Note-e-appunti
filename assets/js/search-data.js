@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Note-e-appunti/projects/";
           },
-        },{id: "post-donne-capoverdiane-migrazione-e-identità",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Note-e-appunti/blog/2025/2025-06-30-pensare-con-arcipelago/";
+          
+        },
+      },{id: "post-donne-capoverdiane-migrazione-e-identità",
         
           title: "Donne Capoverdiane, Migrazione e Identità",
         
