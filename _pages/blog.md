@@ -31,33 +31,47 @@ pagination:
   <div class="row">
     <!-- Sidebar sinistra -->
     <div class="col-md-3 mb-4" style="border-right: 1px solid #ddd; padding-right: 1rem;">
-      {% if site.display_tags and site.display_tags.size > 0 %}
-        <div class="mb-4">
-          <h4>Tag</h4>
-          <ul class="list-unstyled">
-            {% for tag in site.display_tags %}
-              <li>
-                <i class="fa-solid fa-hashtag fa-sm"></i>
-                <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
+      {% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" %}
 
-      {% if site.display_categories and site.display_categories.size > 0 %}
-        <div class="mb-4">
-          <h4>Categorie</h4>
-          <ul class="list-unstyled">
-            {% for category in site.display_categories %}
-              <li>
-                <i class="fa-solid fa-tag fa-sm"></i>
-                <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
-              </li>
+      <div class="mb-4">
+        <h4>Tag</h4>
+        <ul class="list-unstyled">
+          {% assign all_tags = "" | split: "" %}
+          {% for post in visible_posts %}
+            {% for tag in post.tags %}
+              {% unless all_tags contains tag %}
+                {% assign all_tags = all_tags | push: tag %}
+              {% endunless %}
             {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
+          {% endfor %}
+          {% for tag in all_tags %}
+            <li>
+              <i class="fa-solid fa-hashtag fa-sm"></i>
+              <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h4>Categorie</h4>
+        <ul class="list-unstyled">
+          {% assign all_categories = "" | split: "" %}
+          {% for post in visible_posts %}
+            {% for category in post.categories %}
+              {% unless all_categories contains category %}
+                {% assign all_categories = all_categories | push: category %}
+              {% endunless %}
+            {% endfor %}
+          {% endfor %}
+          {% for category in all_categories %}
+            <li>
+              <i class="fa-solid fa-tag fa-sm"></i>
+              <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
 
     <!-- Contenuto principale: post -->
@@ -141,5 +155,6 @@ pagination:
     </div>
   </div>
 </div>
+
 
 
