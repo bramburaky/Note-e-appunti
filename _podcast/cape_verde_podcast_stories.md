@@ -55,12 +55,12 @@ audio {
 
 
 <div class="podcast-episode">
-  <img src="{{ 'assets/img/cover_podcast_capo_verde2.png' | relative_url }}" alt="Copertina episodio 1">
+  <img src="{{ 'assets/img/cover_podcast_stories.png' | relative_url }}" alt="Copertina episodio 1">
   <div class="podcast-info">
     <h3>Episodio 01 – Identità e migrazione a Capo Verde</h3>
-    <p>Con Martina Giuffrè e Giacomo Pozzi, tratto dalla rivista “LARES” (2023).</p>
+    <p>Con Miriam Steffen Vieira* and Eufémia Vicente Rocha.</p>
     <audio controls>
-      <source src="{{ '/assets/audio/cape_verdean_anthropology.mp3' | relative_url }}" type="audio/mpeg">
+      <source src="{{ '/assets/audio/1Gender_and_Environment.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
     </audio>
   </div>
