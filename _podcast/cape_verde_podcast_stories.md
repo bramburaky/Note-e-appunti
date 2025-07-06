@@ -57,8 +57,8 @@ audio {
 <div class="podcast-episode">
   <img src="{{ 'assets/img/cover_podcast_stories.png' | relative_url }}" alt="Copertina episodio 1">
   <div class="podcast-info">
-    <h3>Episodio 01 – Identità e migrazione a Capo Verde</h3>
-    <p>Con Miriam Steffen Vieira* and Eufémia Vicente Rocha.</p>
+    <h3>Episodio 01 – Gender and Environment in the Interior of Santiago Island: Sand Harvesting From Women Heads of Families**</h3>
+    <p>Con Miriam Steffen Vieira and Eufémia Vicente Rocha.</p>
     <audio controls>
       <source src="{{ '/assets/audio/1Gender_and_Environment.mp3' | relative_url }}" type="audio/mpeg">
       Il tuo browser non supporta l'elemento audio.
