@@ -448,7 +448,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "podcast-antropologia-capo-verde",
+          section: "News",},{id: "podcast-capo-verde-stories",
+          title: 'Capo Verde Stories',
+          description: "Una serie di storie e studi sulle isole di Capo Verde.",
+          section: "Podcast",handler: () => {
+              window.location.href = "/Note-e-appunti/podcast/cape_verde_podcast_stories/";
+            },},{id: "podcast-antropologia-capo-verde",
           title: 'Antropologia Capo Verde',
           description: "Una serie di approfondimenti antropologici sulle isole di Capo Verde.",
           section: "Podcast",handler: () => {
